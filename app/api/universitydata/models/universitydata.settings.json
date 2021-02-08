@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "universitydata",
+  "info": {
+    "name": "universitydata"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "University": {
+      "type": "string"
+    },
+    "Name": {
+      "type": "string"
+    },
+    "Concentration": {
+      "type": "string"
+    },
+    "websiteUrl": {
+      "type": "string"
+    },
+    "campus": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    }
+  }
+}

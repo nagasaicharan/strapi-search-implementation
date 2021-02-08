@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/universitydata",
+      "handler": "universitydata.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/universitydata/count",
+      "handler": "universitydata.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/universitydata/:id",
+      "handler": "universitydata.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/universitydata",
+      "handler": "universitydata.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/universitydata/:id",
+      "handler": "universitydata.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/universitydata/:id",
+      "handler": "universitydata.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
